@@ -3,11 +3,68 @@
 	
 	}
 body{
-	min-width: 82px;
+	min-width: 300px;
+	left-margin:2%;
+	right:margin:2%;
+
 	}
 
 
-div h1{
+h2,h3{
+	text-align: center;
+	padding-top: 2%;
+	}
+.p-4{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	padding-bottom: 1px !important;
+}
+.text-white{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border: solid 0.5px;
+	border-color: white;
+	padding-left: 0%;
+	padding-right: 0%;
+
+	box-sizing: content-box;
+	margin-right: 0%;
+	margin-left: 0%;
+}
+
+.container-fluid{
+	text-align: center;
+	width: 100%;
+	padding-left: 0%;
+	padding-right: 0%;
+	box-sizing: content-box;
+	margin-right: 0%;
+	margin-left: 0%;
+}
+h4 {
+	margin-block-start:0px;
+	margin-block-end:0px;
+}
+
+.Chicken{
+	background-color: grey;
+}
+/*.container-fluid{
+	width: 100%
+color:yellow;
+}
+*/
+/*.navbar{
+	width:100%;
+}*/
+
+/*.bnavbar-dark{
+	background-color: red;
+	
+	
+}*/
+
+/*/*//*iv h1{
 	
 	color:white;
 	padding-top: 4%;
@@ -24,10 +81,6 @@ h2{
 ul {
     border: 1px solid white;
 }
-.row{
-	width:100%;
-}
-
 
 .title{
 	padding-top: 2%;
@@ -47,37 +100,32 @@ text-align: center;
 	border:solid;
 	background-color: grey;
 	height:100%;
-	/*min-width:200px;*/
+	
 
 
 }
 
+*/
 
+/*
+@media (min-width: 1200px){
 
-
-@media (min-width: 992px){
-	.col-lg-12{
-		width: 100%;
-	}
 .navbar-toggler{
 		visibility: hidden;
 		}
 	}
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-md-12{
-		width: 100%;
-		}
+	
 .navbar-toggler{
 		visibility: hidden;
 		}
 }
 /*** small screen****/
 
-@media (min-width: 82px) and (max-width: 767px) {
-		.col-xs-6{
-		width :50%;
-		}
+/*@media (min-width: 82px) and (max-width: 767px) {
+		
+		
 
 .navbar-toggler{
 	visibility: visible; 
@@ -87,4 +135,4 @@ text-align: center;
 		}
 
 
-}
+}*/
