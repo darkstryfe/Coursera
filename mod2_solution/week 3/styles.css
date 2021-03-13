@@ -55,7 +55,7 @@ h2,h3{
 	box-sizing: content-box;
 	margin-right: 0%;
 	margin-left: 0%;
-	min-width: 75px;
+	min-width: 350px;
 }
 h4 {
 	margin-block-start:0px;
