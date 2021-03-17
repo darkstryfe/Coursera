@@ -2,141 +2,71 @@
 	box-sizing: border-box;
 	
 	}
+/*body {  min-width:600px; }*/
 
-body{
-	min-width: 300px;
-	
-	text-align: center;
+.pos-f-t{
 
-
-	}
-
-h1{
 	color:white;
-	min-width: 75px;
+	background-color: #343a40;
+
+
+	padding-left: 3%;
+	padding-top: 1%;
+	
+	
+}
+body > header > div.pos-f-t > div > div > div:nth-child(1){
+padding-right: 40%;
+margin-left: 4%;
+left:20px;
 
 }
-
 .navbar{
-	min-width: 75%;
-}
-button {
-	margin-right: 2%;
-}
-h2,h3{
-	
-	padding-top: 2%;
-	min-width: 75px;
-	}
+/*float:right;*/
+position: relative;
 
-	h2{
-		
-	}
+width: 100%;
 
-.p-4{
-	padding-left: 0px !important;
-	padding-right: 0px !important;
-	padding-bottom: 1px !important;
-}
-.text-white{
-	padding-top: 2%;
-	padding-bottom: 2%;
-	border: solid 0.5px;
-	border-color: white;
-	/*box-sizing: content-box;*/
 
 }
-
-.container-fluid{
-	
-	width: 100%;
-	padding-left: 0%;
-	padding-right: 0%;
-	box-sizing: content-box;
-	margin-right: 0%;
-	margin-left: 0%;
-	min-width: 350px;
-}
-h4 {
-	margin-block-start:0px;
-	margin-block-end:0px;
-	min-width: 75px;
-}
-
-.Chicken{
-	box-sizing:content-box;
-	background-color: grey;
-	min-width: 75px;
-	left-margin:2%;
-	right:margin:2%;
-	padding-right: 4%;
-	padding-left: 4%;
-}
-/*.container-fluid{
-	width: 100%
-color:yellow;
-}
-*/
-/*.navbar{
-	width:100%;
-}*/
-
-/*.bnavbar-dark{
-	background-color: red;
-	
-	
-}*/
-
-/*/*//*iv h1{
-	
-	color:white;
-	padding-top: 4%;
-	padding-bottom: 2%;
-
-}
-
-h2{
-	text-align: center;
-	padding-top: 2%;
-	padding-bottom: 2%;
-}
-
-ul {
-    border: 1px solid white;
-}
-
 .title{
-	padding-top: 2%;
-	padding-bottom: 2%;
-}
-
-
-h3{
-text-align: center;
+	text-align: center;
 }
 .text-white {
-	line-height: 3.0;
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+.container{
 
+	margin-left:10%;
+	width: 80%;
+	margin-right:10%;
 	
 }
 .Chicken{
-	border:solid;
+	text-align: center;
 	background-color: grey;
-	height:100%;
+	margin-left: 4%;
+	margin-right: 4%;
+	padding-right: 10%;
+	padding-left: 10%;
 	
-
-
 }
-
-*/
-
+/*body > header > div.pos-f-t > div > div > div:nth-child(2){
+	margin-right:10%;
+}*/
 
 @media (min-width: 992px){
 
 .navbar-toggler{
 		visibility: hidden;
 		}
+.collapse  {
+	visibility: hidden;
 	}
+}
 	
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -144,20 +74,33 @@ text-align: center;
 .navbar-toggler{
 		visibility: hidden;
 		}
-}
-
-/*** small screen***/
+/*}
+small screen*/
 
 @media (max-width: 768px) {
 		
-		
+
 
 .navbar-toggler{
 	visibility: visible; 
-	color: white;
+	position: center;
+
 
 	
 		}
 
 
 }
+
+/*@media (max-width:231px){
+body > header > div.pos-f-t > div > div > div:nth-child(2){
+
+
+
+	margin-left: 10%;
+	padding-bottom: 9%;
+	margin:0px;
+	padding: 0px;
+	
+
+}*/
