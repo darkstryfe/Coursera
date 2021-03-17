@@ -12,12 +12,12 @@
 	padding-top: 1%;
 }
 
-/*body > header > div.pos-f-t > div > div > div:nth-child(1){
+body > header > div.pos-f-t > div > div > div:nth-child(1){
 padding-right: 40%;
 margin-left: 4%;
 left:20px;
 
-}*/
+}
 
 .navbar{
 
@@ -40,7 +40,7 @@ h2{
 	float: center;
 	margin-left:10%;
 	width: 80%;
-	margin-right:10%;
+	margin-right:5%;
 	
 }
 .Chicken{
