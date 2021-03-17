@@ -8,30 +8,28 @@
 
 	color:white;
 	background-color: #343a40;
-
-
 	padding-left: 3%;
 	padding-top: 1%;
-	
-	
 }
+
 body > header > div.pos-f-t > div > div > div:nth-child(1){
 padding-right: 40%;
 margin-left: 4%;
 left:20px;
 
 }
-.navbar{
-/*float:right;*/
-position: relative;
 
+.navbar{
+
+position: relative;
 width: 100%;
 
-
 }
+
 .title{
 	text-align: center;
 }
+
 .text-white {
 	text-align: center;
 }
@@ -54,9 +52,7 @@ h2{
 	padding-left: 10%;
 	
 }
-/*body > header > div.pos-f-t > div > div > div:nth-child(2){
-	margin-right:10%;
-}*/
+
 
 @media (min-width: 992px){
 
