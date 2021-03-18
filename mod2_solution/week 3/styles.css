@@ -2,7 +2,15 @@
 	box-sizing: border-box;
 	
 	}
-/*body {  min-width:600px; }*/
+body {  
+	width: 100%px;
+	height: 1200px;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	margin: auto;
+	 }
 
 .pos-f-t{
 
@@ -18,10 +26,13 @@ margin-left: 4%;
 left:20px;
 
 }
-
+body > header > div > div.container-fluid > div > div:nth-child(1){
+	position:fixed;
+	min-width: 110%;
+}
 .navbar{
 
-position: relative;
+
 width: 100%;
 
 }
@@ -33,17 +44,16 @@ width: 100%;
 .text-white {
 	text-align: center;
 }
-h2{
-	text-align: center;
-}
+/*
 .container{
-	float: center;
+	
 	margin-left:10%;
 	width: 80%;
-	margin-right:5%;
+	margin-right:10%;
 	
-}
+}*/
 .Chicken{
+	wi
 	text-align: center;
 	background-color: grey;
 	padding-right: 10%;
@@ -73,17 +83,10 @@ small screen*/
 
 @media (max-width: 768px) {
 		
-
-
 .navbar-toggler{
 	visibility: visible; 
-	position: center;
 
-
-	
 		}
-
-
 }
 
 /*@media (max-width:231px){
