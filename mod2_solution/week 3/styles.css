@@ -80,7 +80,7 @@ body > header > div > div.container-fluid > div > div:nth-child(2){
 	width: 80%;
 	margin-right:10%;
 	
-}
+	}
 }
 	
 
@@ -115,17 +115,17 @@ body > header > div > div.container-fluid > div > div:nth-child(2){
 
 }
 
-@media (max-width:575px){
-body > header > div.pos-f-t > div > div > div:nth-child(2){
+@media (max-width: 575px){
+/*body > header > div.pos-f-t > div > div > div:nth-child(2){
 margin-left: 10%;
 	padding-bottom: 9%;
 	margin-right:10%;
 	padding: 0px;
-	}
+	}*/
 
 .container{
 margin-left: 10%;
-	width: 10%;
+	width: 80%;
 	margin-right:10%;
 	}
 }
