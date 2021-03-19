@@ -122,9 +122,10 @@ body > header > div.pos-f-t > div > div > div:nth-child(2){
 	margin-right:10%;
 	padding: 0px;
 	}*/
-
+}
+.container{
 margin-left: 10%;
-	width: 80%;*
+	width: 80%;
 	margin-right:10%;
 	
 }
