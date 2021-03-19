@@ -22,26 +22,22 @@ body {
 }
 
 
-.container-fluid{
-position: relative;
 
+header {
+    background-color: #343a40;
 }
-span + span {
-    margin-left: 10px;
-}
-.bg-dark{
 
-
-width: 100%;
-
+.navbar, .navbar-dark, .bg-dark{
+	position: sticky;
+	margin-left: 10%;
+	padding-right:   10%;
 }
-.navbar{
-	position: relative;
+body > header > div > div.container-fluid > div > div:nth-child(2){
+		position: sticky;
+	margin-left: 10%;
+	padding-right:   10%;
+}
 
-}
-.ol-xs-6{
-	width: 100%
-}
 .title{
 	text-align: center;
 }
@@ -53,7 +49,7 @@ width: 100%;
 .container{
 	
 	margin-left:10%;
-	width: 80%;
+	width: 60%;
 	margin-right:10%;
 	
 }
@@ -83,8 +79,8 @@ width: 100%;
 .navbar-toggler{
 		visibility: hidden;
 		}
-/*}
-small screen*/
+	}
+/*small screen*/
 
 @media (max-width: 768px) {
 		
@@ -92,9 +88,7 @@ small screen*/
 	visibility: visible; 
 
 		}
-.row{
-			min-width: 100%;
-		}
+
 }
 
 /*@media (max-width:231px){
